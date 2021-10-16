@@ -63,7 +63,7 @@ function autoClick() {
 }
 function checkWordLimit(){
     var cardSection = document.querySelector('.card-section');
-    if(cardSection){
+    if( cardSection ){
         var cardSectionTextC = cardSection.textContent;
         var words32 = /32/.test(cardSectionTextC);
 
