@@ -63,13 +63,14 @@ function autoClick() {
 }
 function checkWordLimit(){
     var cardSection = document.querySelector('.card-section');
-    var cardSectionTextC = cardSection.textContent;
-    var words32 = /32/.test(cardSectionTextC);
+    if(cardSection){
+        var cardSectionTextC = cardSection.textContent;
+        var words32 = /32/.test(cardSectionTextC);
 
-    if(words32){
-        console.log(console.log('%c DETECTED: word limit. Completion ' + '', 'background: #FF3333; font-size: 18px; text-align: center; border-radius: 5px 5px 5px 5px; color: #fff'));
-        return 0;
-    }else{
-        return 1;
+        if(words32){
+            console.log(console.log('%c DETECTED: word limit. Completion ' + '', 'background: #FF3333; font-size: 18px; text-align: center; border-radius: 5px 5px 5px 5px; color: #fff'));
+            return 0;
+        }
     }
+    return 1;
 }
