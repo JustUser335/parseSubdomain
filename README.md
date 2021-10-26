@@ -2,6 +2,8 @@
 
 Поиск поддоменов в google (**_консольный скрипт_**)
 
+Проект можно поддержать [Яндекс](https://sobe.ru/na/podderzhat_proekt_parser_poddomenov) или [Qiwi](https://my.qiwi.com/form/Stanyslav-DDGBq5kXou)
+
 ## Использование скрипта:
 - Открываем страницу поиска гугл
 - Открываем консоль разработчика(F12)
